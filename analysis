@@ -1,0 +1,5 @@
+#defin the study area
+var geometry = ee.FeatureCollection("FAO/GAUL/2015/level0").filter(ee.Filter.eq('ADM0_NAME', 'BlueMt'))
+
+# choose the platform
+var platform = 'S8';
